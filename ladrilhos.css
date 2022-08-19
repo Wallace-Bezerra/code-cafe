@@ -1,0 +1,16 @@
+.ladrilhos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.ladrilhos .right-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 99%;
+}
+
+.ladrilhos .right-area .ultimo-cafe {
+    grid-column: 1/-1;
+    height: 100%;
+}

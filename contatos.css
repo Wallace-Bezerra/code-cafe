@@ -1,0 +1,40 @@
+.contatos {
+    position: relative;
+    height: 580px;
+}
+
+.contato {
+    position: absolute;
+    top: 161px;
+    right: 309px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contato-imagem {
+    height: 100%;
+}
+
+.contato h2 {
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.dados,
+.horario {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.dados a {
+    transition: .3s;
+}
+
+.dados a:hover {
+    color: rgb(226, 222, 222);
+}

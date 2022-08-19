@@ -1,0 +1,28 @@
+.painel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel h1 {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: white;
+}
+
+@media(max-width:730px) {
+    .painel h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:600px) {
+    .painel h1 {
+        font-size: 35px;
+        line-height: normal;
+    }
+}
