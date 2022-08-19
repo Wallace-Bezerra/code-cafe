@@ -5,8 +5,10 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Source Serif Pro', serif;
+    color: inherit;
 }
 
 img {
+    max-width: 100%;
     width: 100%;
 }

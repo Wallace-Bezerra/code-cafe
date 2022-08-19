@@ -16,7 +16,7 @@ header {
 
 .menu li a {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
 }
@@ -39,15 +39,19 @@ header {
     /* top: 0; */
 }
 
-.container {
+.quem-somos,
+.onde-estamos {
+    padding-block: 153px;
+}
 
+.container {
     width: 702px;
     height: 402px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-block: 153px;
+
 }
 
 .container img {
@@ -74,11 +78,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
-    /* width: 1400px; */
-    margin-bottom: 100px;
 }
 
-.right-area {
+.ladrilhos .right-area {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 99%;
@@ -87,4 +89,97 @@ header {
 .ultimo-cafe {
     grid-column: 1/-1;
     height: 100%;
+}
+
+.contatos {
+    position: relative;
+    height: 580px;
+}
+
+.contato {
+    position: absolute;
+    top: 161px;
+    right: 309px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.contato-imagem {
+    height: 100%;
+}
+
+.contato h2 {
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: 600;
+}
+
+.dados,
+.horario {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+}
+
+.dados a {
+    transition: .3s;
+}
+
+.dados a:hover {
+    color: rgb(226, 222, 222);
+}
+
+footer {
+    color: white;
+}
+
+.footer-logo {
+    width: 85px;
+}
+
+.footer-imagem {
+    background-image: url(./assets/img/footer.png);
+    height: 211px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+
+.footer-imagem .left-area {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-imagem .left-area span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #fdfdfd;
+}
+
+.footer-imagem .right-area {
+    display: flex;
+    flex-direction: column;
+    gap: 67px;
+    align-items: flex-end;
+    margin-top: 65px;
+}
+
+.footer-imagem .right-area ul {
+    display: flex;
+    gap: 46px;
+}
+
+.redes {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    width: 20px;
 }

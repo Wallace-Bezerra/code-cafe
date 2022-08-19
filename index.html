@@ -10,19 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Melhores cafés para programadores!">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <title>Code Café</title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="./assets/img/cod-cafe-logo.jpg" alt="logo code café ">
+            <a href="#"><img src="./assets/img/cod-cafe-logo.jpg" alt="logo code café "></a>
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Onde Estamos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#onde-estamos">Onde Estamos</a></li>
+                <li><a href="#contatos">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +34,7 @@
         <h1>Aqui o café é só o começo</h1>
     </section>
 
-    <section class="quem-somos">
+    <section class="quem-somos" id="quem-somos">
         <div class="container">
             <img src="./assets/img/Code Café-quemSomos.png" alt="imagem planta">
             <h2>QUEM SOMOS</h2>
@@ -53,9 +55,49 @@
             <img class="ultimo-cafe" src="./assets/img/café-4.png" alt="">
         </div>
     </section>
-    <section class="onde-estamos">
-        
+    <section class="onde-estamos" id="onde-estamos">
+        <div class="container">
+            <img src="./assets/img/Code Café-quemSomos.png" alt="">
+            <h2>ONDE ESTAMOS</h2>
+            <P>Avenida Brigadeiro Faria Lima, 444
+                São Paulo</P>
+        </div>
     </section>
+    <section class="contatos" id="contatos">
+        <img class="contato-imagem" src="./assets/img/contato.png" alt="café">
+
+        <div class="contato">
+            <h2>Contato</h2>
+            <div class="dados">
+                <span>Telefone: <a href="#">(51) 9-9999-9999</a></a>
+                    <br>
+                    <span>Email: <a href="#">contato@codecafe.com</a></a>
+            </div>
+            <div class="horario">
+                <p>Horário de atendimento:</p>
+                <p>seg a sex - 9h até 18h</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-imagem">
+            <div class="left-area">
+                <a href="#"><img class="footer-logo" src="./assets/img/cod-cafe-logo.jpg" alt="logo rodape"></a>
+                <span>&copy 2022 Code Café</span>
+            </div>
+            <nav class="right-area">
+                <ul>
+                    <li><a href="#quem-somos">Quem somos</a></li>
+                    <li><a href="#onde-estamos">Onde Estamos</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                </ul>
+                <div class="redes">
+                    <a href="#"><img class="icon" src="./assets/img/facebook.svg" alt="icone facebook"></a>
+                    <a href="#"><img class="icon" src="./assets/img/instagram.svg" alt="icone instagram"></a>
+                </div>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>
