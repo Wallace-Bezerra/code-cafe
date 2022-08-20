@@ -16,6 +16,8 @@
 
 .contato-imagem {
     height: 100%;
+    object-fit: cover;
+    object-position: top right;
 }
 
 .contato h2 {
@@ -37,4 +39,23 @@
 
 .dados a:hover {
     color: rgb(226, 222, 222);
+}
+
+@media(max-width:1100px) {
+    .contatos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contato {
+        right: initial;
+        text-align: center;
+        padding-inline: 10px;
+    }
+
+    .dados,
+    .horario {
+        font-size: 20px;
+    }
+
 }

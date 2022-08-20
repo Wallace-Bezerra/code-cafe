@@ -5,7 +5,7 @@
 
 .container {
     max-width: 702px;
-    height: 402px;
+    max-height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -33,4 +33,9 @@
     padding-inline: 10px;
 }
 
-@media(max-width) {}
+@media(max-width:600px) {
+    .container h2 {
+        font-size: 30px;
+    }
+
+}

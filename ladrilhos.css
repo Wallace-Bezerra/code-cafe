@@ -7,10 +7,26 @@
 .ladrilhos .right-area {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 99%;
+    height: 100%;
+}
+
+.ladrilhos img {
+    height: 100%;
 }
 
 .ladrilhos .right-area .ultimo-cafe {
     grid-column: 1/-1;
     height: 100%;
+}
+
+@media(max-width:600px) {
+    .ladrilhos {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:430px) {
+    .ladrilhos .right-area {
+        grid-template-columns: 1fr;
+    }
 }

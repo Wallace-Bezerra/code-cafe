@@ -49,3 +49,36 @@ footer {
 .icon {
     width: 20px;
 }
+
+@media(max-width:600px) {
+    .footer-imagem {
+        flex-direction: column;
+        background-image: none;
+        background-color: #000;
+        height: 100%;
+        padding-top: 45px;
+        padding-bottom: 72px;
+        position: relative;
+    }
+
+    .footer-imagem .left-area,
+    .footer-imagem .right-area {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-imagem .left-area span {
+        position: absolute;
+        top: 430px;
+    }
+
+    .footer-imagem .right-area {
+        margin-top: 60px;
+    }
+
+    .footer-imagem .right-area ul {
+        flex-direction: column;
+        gap: 27px;
+    }
+
+}
